@@ -1,0 +1,55 @@
+{
+  "tests": [
+    {
+  "steps": [
+    {
+      "id": "6fbe13c2-fa52-4cf5-b64d-da9645be910f",
+      "description": "goto-appointment",
+      "action": "goTo",
+      "url": "https://appointment.day"
+    },
+    {
+      "action": "saveScreenshot",
+      "path": "appointment-homepage-from-json-spec.png"
+    },
+    {
+      "action": "find",
+      "selector": "button.relative",
+      "timeout": 10000,
+      "matchText": "Log in",
+      "moveTo": true,
+      "click": true
+    },
+    {
+      "action": "saveScreenshot",
+      "path": "appointment-login.png"
+    },
+    {
+      "action": "find",
+      "selector": " .mr-6",
+      "timeout": 10000,
+      "typeKeys": "rolandtest@thunderbird.net",
+      "moveTo": true,
+      "click": true
+    },
+    {
+      "action": "saveScreenshot",
+      "path": "appointment-after-entering-email.png"
+    },
+    {
+      "action": "find",
+      "selector": "button.relative",
+      "timeout": 10000,
+      "matchText": "Continue",
+      "moveTo": true,
+      "click": true
+    },
+    {
+      "action": "saveScreenshot",
+      "path": "appointment-after-filling-in-fxa-email-clicking-continue.png",
+      "overwrite": true
+    }
+  ]
+}
+]
+}
