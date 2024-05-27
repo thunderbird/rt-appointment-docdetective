@@ -10,7 +10,8 @@
     },
     {
       "action": "saveScreenshot",
-      "path": "appointment-homepage-from-json-spec.png"
+      "path": "01-appointment-homepage-from-json-spec.png",
+      "overwrite": true
     },
     {
       "action": "find",
@@ -22,7 +23,8 @@
     },
     {
       "action": "saveScreenshot",
-      "path": "appointment-login.png"
+      "path": "02-appointment-login.png",
+      "overwrite": true
     },
     {
       "action": "find",
@@ -34,7 +36,8 @@
     },
     {
       "action": "saveScreenshot",
-      "path": "appointment-after-entering-email.png"
+      "path": "03-appointment-after-entering-email.png",
+      "overwrite": true
     },
     {
       "action": "find",
@@ -46,7 +49,7 @@
     },
     {
       "action": "saveScreenshot",
-      "path": "appointment-after-filling-in-fxa-email-clicking-continue.png",
+      "path": "04-appointment-after-filling-in-fxa-email-clicking-continue.png",
       "overwrite": true
     }
   ]
