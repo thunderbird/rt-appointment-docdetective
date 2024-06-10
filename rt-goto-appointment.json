@@ -28,7 +28,7 @@
     },
     {
       "action": "find",
-      "selector": " .mr-6",
+      "selector": ".mr-6",
       "timeout": 10000,
       "typeKeys": "rolandtest@thunderbird.net",
       "moveTo": true,
@@ -40,8 +40,13 @@
       "overwrite": true
     },
     {
+      "description": "Wait for 10 seconds.",
+      "action": "wait",
+      "duration": 10000
+    },
+    {
       "action": "find",
-      "selector": "button.relative",
+      "selector": ".relative",
       "timeout": 10000,
       "matchText": "Continue",
       "moveTo": true,
