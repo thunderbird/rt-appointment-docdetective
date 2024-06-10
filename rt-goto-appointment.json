@@ -39,18 +39,19 @@
       "path": "03-appointment-after-entering-email.png",
       "overwrite": true
     },
-    {
-      "description": "Wait for 10 seconds.",
-      "action": "wait",
-      "duration": 10000
-    },
+
     {
       "action": "find",
-      "selector": ".relative",
+      "selector": "button.relative",
       "timeout": 10000,
       "matchText": "Continue",
       "moveTo": true,
       "click": true
+    },
+    {
+      "description": "Wait for 10 seconds.",
+      "action": "wait",
+      "duration": 10000
     },
     {
       "action": "saveScreenshot",
